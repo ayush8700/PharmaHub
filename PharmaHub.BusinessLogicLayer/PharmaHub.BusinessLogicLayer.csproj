@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PharmaHub.DataAccessLayer\PharmaHub.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PharmaHub.DataTranferObjects\PharmaHub.DataTranferObjects.csproj" />
+  </ItemGroup>
+
+</Project>

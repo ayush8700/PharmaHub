@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.DataAccessLayer", "PharmaHub.DataAccessLayer\PharmaHub.DataAccessLayer.csproj", "{9B8D20EF-8E50-4D3F-84D6-136851F22C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.DataTranferObjects", "PharmaHub.DataTranferObjects\PharmaHub.DataTranferObjects.csproj", "{FBEE272E-B311-44AE-A3F1-4BB52536B64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.BusinessLogicLayer", "PharmaHub.BusinessLogicLayer\PharmaHub.BusinessLogicLayer.csproj", "{4D33EF32-88BE-4C25-9412-850A96918C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.WebServices", "PharmaHub.WebServices\PharmaHub.WebServices.csproj", "{96E652A3-0A5B-42BF-844E-C772468100BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8D20EF-8E50-4D3F-84D6-136851F22C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8D20EF-8E50-4D3F-84D6-136851F22C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8D20EF-8E50-4D3F-84D6-136851F22C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8D20EF-8E50-4D3F-84D6-136851F22C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEE272E-B311-44AE-A3F1-4BB52536B64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEE272E-B311-44AE-A3F1-4BB52536B64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEE272E-B311-44AE-A3F1-4BB52536B64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEE272E-B311-44AE-A3F1-4BB52536B64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D33EF32-88BE-4C25-9412-850A96918C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D33EF32-88BE-4C25-9412-850A96918C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D33EF32-88BE-4C25-9412-850A96918C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D33EF32-88BE-4C25-9412-850A96918C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E652A3-0A5B-42BF-844E-C772468100BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E652A3-0A5B-42BF-844E-C772468100BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E652A3-0A5B-42BF-844E-C772468100BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E652A3-0A5B-42BF-844E-C772468100BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
