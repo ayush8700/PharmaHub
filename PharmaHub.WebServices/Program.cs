@@ -15,10 +15,6 @@ namespace PharmaHub.WebServices
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add configuration from the BLL project’s appsettings.json
-            builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-            builder.Configuration.AddJsonFile("../BLL/appsettings.json", optional: true, reloadOnChange: true);
-            
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
