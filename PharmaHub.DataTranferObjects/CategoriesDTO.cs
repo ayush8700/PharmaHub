@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace PharmaHub.DataTranferObjects
 {
-    public class CategoriesDTO
+    public class GetCategoriesDTO
     {
-
+        public byte CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 
     public class AddCategoryDTO
     {
-        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
     }
 }

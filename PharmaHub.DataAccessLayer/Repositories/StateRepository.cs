@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PharmaHub.DataTranferObjects
+namespace PharmaHub.DataAccessLayer.Repositories
 {
-    public class UserDTO
+    public class StateRepository: IStateRepository
     {
     }
 }

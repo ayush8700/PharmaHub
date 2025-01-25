@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PharmaHub.DataTranferObjects
 {
-    internal class ProductDTO
+    public class ProductDTO
     {
+
     }
 }

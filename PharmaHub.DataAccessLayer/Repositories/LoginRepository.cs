@@ -39,9 +39,9 @@ namespace PharmaHub.DataAccessLayer.Repositories
             return loginDto;
         }
 
-        public bool Register(AddLoginDto addLoginDTO)
+        public int Register(AddLoginDto addLoginDTO)
         {
-            bool status = false;
+            int status = 0;
             try
             {
                 Login login = new Login
@@ -50,13 +50,25 @@ namespace PharmaHub.DataAccessLayer.Repositories
                     UserPassword = addLoginDTO.UserPassword,
                     RoleId = addLoginDTO.RoleId
                 };
-                _context.Logins.Add(login);
-                _context.SaveChanges();
-                status = true;
+
+                Login loginToAdd = (from l in _context.Logins
+                                    where l.EmailId == login.EmailId
+                                    select l).FirstOrDefault();
+
+                if (loginToAdd != null)
+                {
+                    status = -1;
+                }
+                else
+                {
+                    _context.Logins.Add(login);
+                    _context.SaveChanges();
+                    status = 1;
+                }
             }
             catch (Exception)
             {
-                status = false;
+                status = -99;
             }
             return status;
         }
